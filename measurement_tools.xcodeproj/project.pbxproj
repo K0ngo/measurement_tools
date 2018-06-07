@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		BA740DF720C90F60004D4966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740DF620C90F60004D4966 /* AppDelegate.swift */; };
-		BA740DF920C90F60004D4966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740DF820C90F60004D4966 /* ViewController.swift */; };
-		BA740DFC20C90F60004D4966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA740DFA20C90F60004D4966 /* Main.storyboard */; };
 		BA740DFE20C90F61004D4966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA740DFD20C90F61004D4966 /* Assets.xcassets */; };
 		BA740E0120C90F61004D4966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA740DFF20C90F61004D4966 /* LaunchScreen.storyboard */; };
+		BA740E1720C911D7004D4966 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E1620C911D7004D4966 /* BaseViewController.swift */; };
+		BA740E2320C91596004D4966 /* Literal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2220C91596004D4966 /* Literal.swift */; };
+		BA740E3320C916DA004D4966 /* SpeedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2520C916DA004D4966 /* SpeedConfigurator.swift */; };
+		BA740E3420C916DA004D4966 /* SpeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2620C916DA004D4966 /* SpeedPresenter.swift */; };
+		BA740E3520C916DA004D4966 /* SpeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2720C916DA004D4966 /* SpeedRouter.swift */; };
+		BA740E3620C916DA004D4966 /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2820C916DA004D4966 /* SpeedViewController.swift */; };
+		BA740E3720C916DA004D4966 /* AngleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2A20C916DA004D4966 /* AngleConfigurator.swift */; };
+		BA740E3820C916DA004D4966 /* AnglePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2B20C916DA004D4966 /* AnglePresenter.swift */; };
+		BA740E3920C916DA004D4966 /* AngleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2C20C916DA004D4966 /* AngleRouter.swift */; };
+		BA740E3A20C916DA004D4966 /* AngleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2D20C916DA004D4966 /* AngleViewController.swift */; };
+		BA740E3B20C916DA004D4966 /* RulerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E2F20C916DA004D4966 /* RulerConfigurator.swift */; };
+		BA740E3C20C916DA004D4966 /* RulerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E3020C916DA004D4966 /* RulerPresenter.swift */; };
+		BA740E3D20C916DA004D4966 /* RulerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E3120C916DA004D4966 /* RulerRouter.swift */; };
+		BA740E3E20C916DA004D4966 /* RulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E3220C916DA004D4966 /* RulerViewController.swift */; };
+		BA740E4020C91830004D4966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA740E3F20C91830004D4966 /* Main.storyboard */; };
+		BA740E4220C918A2004D4966 /* Angle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA740E4120C918A2004D4966 /* Angle.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA740DF320C90F60004D4966 /* measurement_tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = measurement_tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA740DF620C90F60004D4966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA740DF820C90F60004D4966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA740DFB20C90F60004D4966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA740DFD20C90F61004D4966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA740E0020C90F61004D4966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA740E0220C90F61004D4966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA740E1620C911D7004D4966 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BA740E2220C91596004D4966 /* Literal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Literal.swift; sourceTree = "<group>"; };
+		BA740E2520C916DA004D4966 /* SpeedConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedConfigurator.swift; sourceTree = "<group>"; };
+		BA740E2620C916DA004D4966 /* SpeedPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedPresenter.swift; sourceTree = "<group>"; };
+		BA740E2720C916DA004D4966 /* SpeedRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedRouter.swift; sourceTree = "<group>"; };
+		BA740E2820C916DA004D4966 /* SpeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
+		BA740E2A20C916DA004D4966 /* AngleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleConfigurator.swift; sourceTree = "<group>"; };
+		BA740E2B20C916DA004D4966 /* AnglePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnglePresenter.swift; sourceTree = "<group>"; };
+		BA740E2C20C916DA004D4966 /* AngleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleRouter.swift; sourceTree = "<group>"; };
+		BA740E2D20C916DA004D4966 /* AngleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleViewController.swift; sourceTree = "<group>"; };
+		BA740E2F20C916DA004D4966 /* RulerConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulerConfigurator.swift; sourceTree = "<group>"; };
+		BA740E3020C916DA004D4966 /* RulerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulerPresenter.swift; sourceTree = "<group>"; };
+		BA740E3120C916DA004D4966 /* RulerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulerRouter.swift; sourceTree = "<group>"; };
+		BA740E3220C916DA004D4966 /* RulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulerViewController.swift; sourceTree = "<group>"; };
+		BA740E3F20C91830004D4966 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA740E4120C918A2004D4966 /* Angle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Angle.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,108 @@
 		BA740DF520C90F60004D4966 /* measurement_tools */ = {
 			isa = PBXGroup;
 			children = (
+				BA740E0820C9108C004D4966 /* Classes */,
+				BA740E0B20C910B9004D4966 /* Config */,
+				BA740E0A20C910AF004D4966 /* Resourse */,
+			);
+			path = measurement_tools;
+			sourceTree = "<group>";
+		};
+		BA740E0820C9108C004D4966 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E2020C91554004D4966 /* Helpers */,
 				BA740DF620C90F60004D4966 /* AppDelegate.swift */,
-				BA740DF820C90F60004D4966 /* ViewController.swift */,
-				BA740DFA20C90F60004D4966 /* Main.storyboard */,
+				BA740E1520C911C3004D4966 /* Basic */,
+				BA740E0920C9109E004D4966 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA740E0920C9109E004D4966 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E3F20C91830004D4966 /* Main.storyboard */,
+				BA740E2920C916DA004D4966 /* Angle */,
+				BA740E2E20C916DA004D4966 /* Ruler */,
+				BA740E2420C916DA004D4966 /* Speed */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BA740E0A20C910AF004D4966 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
 				BA740DFD20C90F61004D4966 /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		BA740E0B20C910B9004D4966 /* Config */ = {
+			isa = PBXGroup;
+			children = (
 				BA740DFF20C90F61004D4966 /* LaunchScreen.storyboard */,
 				BA740E0220C90F61004D4966 /* Info.plist */,
 			);
-			path = measurement_tools;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BA740E1520C911C3004D4966 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E1620C911D7004D4966 /* BaseViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		BA740E2020C91554004D4966 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E2120C91580004D4966 /* Constants */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA740E2120C91580004D4966 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E2220C91596004D4966 /* Literal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BA740E2420C916DA004D4966 /* Speed */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E2520C916DA004D4966 /* SpeedConfigurator.swift */,
+				BA740E2620C916DA004D4966 /* SpeedPresenter.swift */,
+				BA740E2720C916DA004D4966 /* SpeedRouter.swift */,
+				BA740E2820C916DA004D4966 /* SpeedViewController.swift */,
+			);
+			path = Speed;
+			sourceTree = "<group>";
+		};
+		BA740E2920C916DA004D4966 /* Angle */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E4120C918A2004D4966 /* Angle.storyboard */,
+				BA740E2D20C916DA004D4966 /* AngleViewController.swift */,
+				BA740E2B20C916DA004D4966 /* AnglePresenter.swift */,
+				BA740E2C20C916DA004D4966 /* AngleRouter.swift */,
+				BA740E2A20C916DA004D4966 /* AngleConfigurator.swift */,
+			);
+			path = Angle;
+			sourceTree = "<group>";
+		};
+		BA740E2E20C916DA004D4966 /* Ruler */ = {
+			isa = PBXGroup;
+			children = (
+				BA740E2F20C916DA004D4966 /* RulerConfigurator.swift */,
+				BA740E3020C916DA004D4966 /* RulerPresenter.swift */,
+				BA740E3120C916DA004D4966 /* RulerRouter.swift */,
+				BA740E3220C916DA004D4966 /* RulerViewController.swift */,
+			);
+			path = Ruler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA740E4220C918A2004D4966 /* Angle.storyboard in Resources */,
 				BA740E0120C90F61004D4966 /* LaunchScreen.storyboard in Resources */,
+				BA740E4020C91830004D4966 /* Main.storyboard in Resources */,
 				BA740DFE20C90F61004D4966 /* Assets.xcassets in Resources */,
-				BA740DFC20C90F60004D4966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +258,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA740DF920C90F60004D4966 /* ViewController.swift in Sources */,
+				BA740E3620C916DA004D4966 /* SpeedViewController.swift in Sources */,
+				BA740E3E20C916DA004D4966 /* RulerViewController.swift in Sources */,
+				BA740E3720C916DA004D4966 /* AngleConfigurator.swift in Sources */,
+				BA740E3420C916DA004D4966 /* SpeedPresenter.swift in Sources */,
+				BA740E3520C916DA004D4966 /* SpeedRouter.swift in Sources */,
+				BA740E3320C916DA004D4966 /* SpeedConfigurator.swift in Sources */,
+				BA740E3C20C916DA004D4966 /* RulerPresenter.swift in Sources */,
+				BA740E3B20C916DA004D4966 /* RulerConfigurator.swift in Sources */,
+				BA740E3A20C916DA004D4966 /* AngleViewController.swift in Sources */,
+				BA740E3D20C916DA004D4966 /* RulerRouter.swift in Sources */,
+				BA740E3920C916DA004D4966 /* AngleRouter.swift in Sources */,
+				BA740E3820C916DA004D4966 /* AnglePresenter.swift in Sources */,
+				BA740E2320C91596004D4966 /* Literal.swift in Sources */,
+				BA740E1720C911D7004D4966 /* BaseViewController.swift in Sources */,
 				BA740DF720C90F60004D4966 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +279,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA740DFA20C90F60004D4966 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA740DFB20C90F60004D4966 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA740DFF20C90F61004D4966 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +409,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = measurement_tools/Info.plist;
+				DEVELOPMENT_TEAM = Z8TT3XQ434;
+				INFOPLIST_FILE = "$(SRCROOT)/measurement_tools/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +427,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = measurement_tools/Info.plist;
+				DEVELOPMENT_TEAM = Z8TT3XQ434;
+				INFOPLIST_FILE = "$(SRCROOT)/measurement_tools/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
