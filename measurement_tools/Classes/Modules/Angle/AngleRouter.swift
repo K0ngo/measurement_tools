@@ -4,7 +4,7 @@
 //  AngleRouter.swift
 //
 //  Created by alexander_bakuta
-//  Copyright © alexander_bakuta. All rights reserved.
+//  Copyright © 2018 k0ngo. All rights reserved.
 //
 
 import UIKit

@@ -4,14 +4,16 @@
 //  SpeedViewController.swift
 //
 //  Created by alexander_bakuta
-//  Copyright © alexander_bakuta. All rights reserved.
+//  Copyright © 2018 k0ngo. All rights reserved.
 //
 
 import UIKit
 
-class SpeedViewController: UIViewController {
+class SpeedViewController: BaseViewController {
   
   var presenter: SpeedPresenter?
+  
+  @IBOutlet weak var lblSpeed: UILabel!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -19,30 +21,17 @@ class SpeedViewController: UIViewController {
     presenter?.viewDidLoad()
   }
 
+  override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+    presenter?.viewWillDisappear()
+  }
 }
 
 //MARK: - SpeedView
 
 extension SpeedViewController: SpeedView {
   
+  func showSpeed(_ speed: String) {
+    lblSpeed.text = speed
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

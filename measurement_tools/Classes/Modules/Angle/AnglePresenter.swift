@@ -4,7 +4,7 @@
 //  AnglePresenter.swift
 //
 //  Created by alexander_bakuta
-//  Copyright © alexander_bakuta. All rights reserved.
+//  Copyright © 2018 k0ngo. All rights reserved.
 //
 
 import Foundation
@@ -53,7 +53,7 @@ extension AnglePresenterImplementation: AnglePresenter {
   func viewDidLoad() {
     motionManager.startDeviceMotionUpdates(to: .main) { deviceMotion, error in
       if let deviceMotion = deviceMotion {
-        self.view?.showAngle(String(format: "%.2f", deviceMotion.gravity.x*90))
+        self.view?.showAngle(String(format: "%.2f", abs(deviceMotion.gravity.x*90)))
       }
     }
   }

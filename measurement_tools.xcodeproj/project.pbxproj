@@ -26,9 +26,11 @@
 		BA740E3E20C916DA004D4966 /* RulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA740E3220C916DA004D4966 /* RulerViewController.swift */; };
 		BA740E4020C91830004D4966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA740E3F20C91830004D4966 /* Main.storyboard */; };
 		BA740E4220C918A2004D4966 /* Angle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA740E4120C918A2004D4966 /* Angle.storyboard */; };
+		BAB331F320C93ACE00B7125D /* Speed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB331F220C93ACE00B7125D /* Speed.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA5A28DF20CA52A30074A7FB /* measurement_tools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = measurement_tools.entitlements; sourceTree = "<group>"; };
 		BA740DF320C90F60004D4966 /* measurement_tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = measurement_tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA740DF620C90F60004D4966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA740DFD20C90F61004D4966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		BA740E3220C916DA004D4966 /* RulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulerViewController.swift; sourceTree = "<group>"; };
 		BA740E3F20C91830004D4966 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BA740E4120C918A2004D4966 /* Angle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Angle.storyboard; sourceTree = "<group>"; };
+		BAB331F220C93ACE00B7125D /* Speed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Speed.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +66,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA5A28E020CA52E50074A7FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA740DEA20C90F60004D4966 = {
 			isa = PBXGroup;
 			children = (
 				BA740DF520C90F60004D4966 /* measurement_tools */,
 				BA740DF420C90F60004D4966 /* Products */,
+				BA5A28E020CA52E50074A7FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +93,7 @@
 		BA740DF520C90F60004D4966 /* measurement_tools */ = {
 			isa = PBXGroup;
 			children = (
+				BA5A28DF20CA52A30074A7FB /* measurement_tools.entitlements */,
 				BA740E0820C9108C004D4966 /* Classes */,
 				BA740E0B20C910B9004D4966 /* Config */,
 				BA740E0A20C910AF004D4966 /* Resourse */,
@@ -105,8 +117,8 @@
 			children = (
 				BA740E3F20C91830004D4966 /* Main.storyboard */,
 				BA740E2920C916DA004D4966 /* Angle */,
-				BA740E2E20C916DA004D4966 /* Ruler */,
 				BA740E2420C916DA004D4966 /* Speed */,
+				BA740E2E20C916DA004D4966 /* Ruler */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -155,10 +167,11 @@
 		BA740E2420C916DA004D4966 /* Speed */ = {
 			isa = PBXGroup;
 			children = (
-				BA740E2520C916DA004D4966 /* SpeedConfigurator.swift */,
+				BAB331F220C93ACE00B7125D /* Speed.storyboard */,
+				BA740E2820C916DA004D4966 /* SpeedViewController.swift */,
 				BA740E2620C916DA004D4966 /* SpeedPresenter.swift */,
 				BA740E2720C916DA004D4966 /* SpeedRouter.swift */,
-				BA740E2820C916DA004D4966 /* SpeedViewController.swift */,
+				BA740E2520C916DA004D4966 /* SpeedConfigurator.swift */,
 			);
 			path = Speed;
 			sourceTree = "<group>";
@@ -218,6 +231,23 @@
 				TargetAttributes = {
 					BA740DF220C90F60004D4966 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -244,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB331F320C93ACE00B7125D /* Speed.storyboard in Resources */,
 				BA740E4220C918A2004D4966 /* Angle.storyboard in Resources */,
 				BA740E0120C90F61004D4966 /* LaunchScreen.storyboard in Resources */,
 				BA740E4020C91830004D4966 /* Main.storyboard in Resources */,
